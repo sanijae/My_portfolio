@@ -12,6 +12,7 @@ export default function App() {
   return (
     <>
      <NavBar/>
+    App
      <Routes>
       <Route path='/' exact index element={<Home/>} />
       <Route path='*' exact index element={<Home/>} />
