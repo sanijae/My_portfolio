@@ -14,6 +14,7 @@ export default function App() {
      <NavBar/>
      <Routes>
       <Route path='/' exact index element={<Home/>} />
+      <Route path='*' exact index element={<Home/>} />
       <Route path='/Experiences' element={<Experience/>}/>
       <Route path='/Projects' element={<Projects/>}/>
       <Route path='/Education' element={<Education/>}/>
