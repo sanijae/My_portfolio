@@ -1,7 +1,10 @@
 import React from 'react'
-import { Contaniner, Header, HeaderRow, HeaderColumn,HeaderTitle,CardIcons,Icon,IconEmail, Wrapper, HeaderText, HeaderImg, HeaderImgs, HeaderButton, AuthorTitle, CardWrapper, Title, Links } from './Styled'
+import { Contaniner, Header, HeaderRow, HeaderColumn,HeaderTitle,CardIcons,Icon,IconEmail,
+     Wrapper, HeaderText, HeaderImg, HeaderImgs, HeaderButton, AuthorTitle, CardWrapper,
+     Links } from './Styled'
 import { Headers} from '../../Assets/data'
 import Dashboard from './Dashboard'
+import ProjectCard from '../Projects/Projectcard'
 import ToolsCard from './Tools'
 import {MdEmail,MdWhatsapp} from 'react-icons/md'
 import {BiLogoTelegram,BiLogoLinkedin,BiLogoGithub} from 'react-icons/bi'
@@ -43,12 +46,13 @@ export default function Home() {
                         <HeaderImg alt='My Picture' src={Headers.logo_name} />
                     </HeaderImgs>
                 </HeaderRow>
-            </Header>
-            <Title>Dashboards</Title>
+            </Header> 
             <CardWrapper>
                 <Dashboard/>
             </CardWrapper>
-            <Title>Capable to use this tools</Title>
+            <CardWrapper>
+                <ProjectCard/>
+            </CardWrapper>
             <CardWrapper>
                 <ToolsCard/>
             </CardWrapper>

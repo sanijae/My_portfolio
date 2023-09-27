@@ -138,6 +138,7 @@ flex-direction: column;
 align-items: center;
 margin: 10px auto;
 background-color: transparent;
+box-shadow: 10px 10px 2em 10px rgba(0,0,0,.2);
 `
 export const CardImg = styled.img`
 width: 90%;
@@ -152,22 +153,9 @@ width: 5em;
 height: 5em;
 border-radius: 2em;
 `
-export const Title = styled.div`
-font-size: 17px;
+export const Title = styled.h2`
+padding: 10px;
 font-weight: bold;
-display: flex;
-align-items: center;
-justify-content: left;
-border: none;
-background: transparent;
-color: inherit;
-border-radius: 10px;
-margin: 2em auto;
-
-@media screen and (max-width:800px){
-    padding: 1em;
-    width: 80%;
-}
 `
 export const ItemsGrid = styled.div`
 display: grid;
@@ -227,4 +215,28 @@ justify-content: space-around;
 border: none;
 border-radius: 2em;
 margin: 10px auto;
+`
+export const Button = styled(Link)`
+width:100%;
+padding:10px;
+text-decoration:none;
+list-style: none;
+background-color: transparent;
+color: inherit;
+font-size: 18px;
+font-weight: bold;
+cursor: pointer;
+`
+export const BWrapper = styled.div`
+width: 100%;
+display: flex;
+text-align: right;
+align-items: center;
+margin: 10px auto;
+background-color: transparent;
+`
+export const DashWrapper = styled.div`
+width: 100%;
+padding: 10px;
+background-color: #fff;
 `

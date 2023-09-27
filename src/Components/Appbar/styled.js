@@ -34,13 +34,12 @@ align-items: center;
 @media screen and (max-width:800px){
     position: fixed;
     top: 3.5em;
-    left: 0;
-    bottom: 0;
     right: 0;
-    padding: 20px;
+    left: 0;
+    padding: 30px;
     flex-direction: column;
+    justify-content: right;
     display: ${({show})=>(show ? show : 'none')};
-    justify-content: center;
     background-color: #4B1073;
 }
 `
@@ -64,7 +63,7 @@ color: #fff;
 }
 
 @media screen and (max-width:800px){
-    width: 100%;
+    width: 50%;
     margin: 10px auto;
 }
 `

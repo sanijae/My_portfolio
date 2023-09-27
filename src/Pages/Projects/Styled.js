@@ -12,13 +12,9 @@ margin-top: 2em;
 `
 
 export const Wrapper = styled.div`
-width: 80%;
+width: 100%;
 padding: 10px;
-display: flex;
-align-items: center;
-justify-content: center;
 background-color: #fff;
-flex-direction: column;
 `
 export const Button = styled(Link)`
 font-size: 20px;
@@ -89,6 +85,8 @@ background-color: rgba(0,0,0,.3);
 export const CardText = styled.p`
 padding: 10px;
 font-weight: bold;
+max-height: 10em;
+overflow-y: auto;
 `
 export const Grid = styled.div`
 display: grid;
@@ -97,12 +95,28 @@ grid-gap: 10px;
 align-items: center;
 margin: 3em auto;
 justify-content: center;
-grid-template-columns: repeat(3,auto);
+grid-template-columns: repeat(2,auto);
 
-@media screen and (max-width:900px) {
-    grid-template-columns: repeat(2,auto);
-}
 @media screen and (max-width:600px) {
     grid-template-columns: repeat(1,auto);
 }
+`
+export const ButtonMore = styled(Link)`
+width:100%;
+padding:10px;
+text-decoration:none;
+list-style: none;
+background-color: transparent;
+color: inherit;
+font-size: 18px;
+font-weight: bold;
+cursor: pointer;
+`
+export const BWrapper = styled.div`
+width: 100%;
+display: flex;
+text-align: right;
+align-items: center;
+margin: 10px auto;
+background-color: transparent;
 `

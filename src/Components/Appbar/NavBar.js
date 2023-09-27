@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { AppBar, BrandTitle, Hamburger, Icon, IconEmail, Icons, Nav, NavItem, Row } from './styled'
 import {MdMenuOpen,MdEmail,MdWhatsapp} from 'react-icons/md'
 import {useNavigate} from 'react-router-dom'
@@ -7,8 +7,9 @@ import {Headers, Media } from '../../Assets/data'
 
 export default function NavBar() {
   const [show,setShow] = useState(false)
+  const [mobile,setMobile] = useState(window.matchMedia('(min-width:700px)').matches)
   const navigate = useNavigate()
-
+ useEffect(()=>window.matchMedia('(min-width:800px)').addEventListener('change',(e)=>setMobile(e.matches)))
   return ( 
     <>
       <AppBar>
@@ -16,12 +17,13 @@ export default function NavBar() {
           <BrandTitle onClick={()=>navigate('/')}>Muhammad Sani</BrandTitle>
           <Nav show={show} onClick={()=>setShow(!show)}>
             <NavItem to='/'>Home</NavItem>
-            <NavItem to='/Experiences'>Experience</NavItem>
+            {/* <NavItem to='/Experiences'>Experience</NavItem>
             <NavItem to='/Projects'>Projects</NavItem>
-            <NavItem to='/Education'>Education</NavItem>
+            <NavItem to='/Education'>Education</NavItem> */}
             <NavItem to='/About'>About</NavItem>
             <NavItem to={Headers.resume} target='_blank'>Resume</NavItem>
           </Nav>
+          {mobile &&
           <Icons>
             <Icon to={Media.linkIn} target='_blank'>
               <BiLogoLinkedin/>
@@ -39,6 +41,7 @@ export default function NavBar() {
               <BiLogoTelegram/>
             </Icon>
           </Icons>
+          }
           <Hamburger>
             <MdMenuOpen onClick={()=>setShow(!show)}/>
           </Hamburger>

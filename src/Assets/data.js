@@ -19,7 +19,7 @@ export const degrees = [
         duration: "2021 - Current",
         descriptions: [
           " I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-          " I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+          " I have done courses on Machine learning, Deep Learning, Data Science, Cloud Computing, Robotics, Autonomous System and Software Development.",
         ],
         website_link: "https://www.abu.edu.ng/",
       },

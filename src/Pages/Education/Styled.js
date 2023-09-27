@@ -91,7 +91,6 @@ border: none;
 border-radius: 2em;
 margin: 10px auto;
 padding: 1em;
-box-shadow: 1em 1em 1em rgba(0,0,0,.3);
 `
 export const CardHeader = styled.div`
 width: 100%;
@@ -132,7 +131,7 @@ grid-template-columns: repeat(2,50%);
 @media screen and (max-width:700px) {
     grid-template-columns: repeat(1,100%);
 }
-`
+` 
 export const CardImg = styled.img`
 width: 90%;
 height: auto;
@@ -149,18 +148,9 @@ align-items: center;
 border: none;
 border-radius: 2em;
 margin: 10px auto;
-box-shadow: .5em .5em .5em 0px rgba(0,0,0,.6);
 `
-export const Title = styled.div`
-font-size: 17px;
+export const Title = styled.h2`
 font-weight: bold;
+text-align: left;
 width: 100%;
-display: flex;
-align-items: center;
-justify-content: left;
-border: none;
-background: transparent;
-color: inherit;
-border-radius: 10px;
-margin: 2em auto;
 `

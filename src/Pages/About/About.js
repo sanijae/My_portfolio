@@ -4,6 +4,8 @@ import { Aboutme, ContactData } from '../../Assets/data'
 import {MdEmail,MdWhatsapp} from 'react-icons/md'
 import {BiLogoTelegram,BiLogoLinkedin,BiLogoGithub} from 'react-icons/bi'
 import { Media } from '../../Assets/data'
+import EduCard from '../Education/EduCard'
+import CertCard from '../Education/CertCard'
 
 export default function About() {
   return (
@@ -38,6 +40,8 @@ export default function About() {
                     </CardIcons>
                 </HeaderColumn>
             </HeaderRow>
+            <EduCard/>
+            <CertCard/>
             <HeaderRow>
                 <HeaderImgs>
                     <HeaderImg alt='My Picture' src={ContactData.picture} />
