@@ -22,7 +22,7 @@ export default function ProjectCard() {
         })}
       </Grid>
       <BWrapper>
-        <ButtonMore>More Projects</ButtonMore>
+        <ButtonMore to='https://github.com/sanijae?tab=repositories' target='_blank'>More Projects</ButtonMore>
       </BWrapper>
       </Wrapper>
     </>
