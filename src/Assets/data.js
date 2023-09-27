@@ -6,7 +6,7 @@
     logo_name: require('../Assets/Images/saj1.jpg'),
     nickname: "Data Analyst || AI/ML Engineer",
     subTitle:
-    "Detail-oriented and high-energy individual with strong planning and organizational skills. Capable of applying the latest technologies and strategies in data mining and predictive analytics to derive value from disparate data sets and events.",//"A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Detail-oriented and high-energetic individual with strong planning and organizational skills. Capable of applying the latest technologies and strategies in data mining and predictive analytics to derive value from disparate data sets and events.",//"A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
     resume: require('../Assets/Images/muhammad_san_analyst.pdf'),
   };
   
