@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7b214b94.css",
-    "main.js": "/portfolio/static/js/main.43281a8c.js",
+    "main.js": "/portfolio/static/js/main.2ac164c0.js",
     "static/media/saj1.jpg": "/portfolio/static/media/saj1.22df6d0a9356a9f83b25.jpg",
     "static/media/intv.jpg": "/portfolio/static/media/intv.dc755f1f38677e03e6dc.jpg",
     "static/media/afr.jpg": "/portfolio/static/media/afr.86a3e807ad3495a5f8f9.jpg",
     "static/media/dsh0.jpg": "/portfolio/static/media/dsh0.22b88680c1eb6d371229.jpg",
     "static/media/dsh7.jpg": "/portfolio/static/media/dsh7.ee11d7d558caf4c34c1e.jpg",
     "static/media/dsh8.jpg": "/portfolio/static/media/dsh8.7ca4998a79c2bcce55b3.jpg",
-    "static/media/muhammad_san_analyst.pdf": "/portfolio/static/media/muhammad_san_analyst.1cdbda7309fe7352c9c3.pdf",
+    "static/media/saj_data_analyst_resume(CV).pdf": "/portfolio/static/media/saj_data_analyst_resume(CV).44f3b5d0427aeb193873.pdf",
     "static/media/dsh1.jpg": "/portfolio/static/media/dsh1.c8911d091be3163303f4.jpg",
     "static/media/bdh.jpg": "/portfolio/static/media/bdh.e876171c161ed8154995.jpg",
     "static/media/mongo.jpg": "/portfolio/static/media/mongo.108d8ebf518c42edace4.jpg",
@@ -29,10 +29,10 @@
     "static/media/java.jfif": "/portfolio/static/media/java.abb6e8ba45b0adec5f0c.jfif",
     "index.html": "/portfolio/index.html",
     "main.7b214b94.css.map": "/portfolio/static/css/main.7b214b94.css.map",
-    "main.43281a8c.js.map": "/portfolio/static/js/main.43281a8c.js.map"
+    "main.2ac164c0.js.map": "/portfolio/static/js/main.2ac164c0.js.map"
   },
   "entrypoints": [
     "static/css/main.7b214b94.css",
-    "static/js/main.43281a8c.js"
+    "static/js/main.2ac164c0.js"
   ]
 }
